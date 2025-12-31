@@ -27,7 +27,9 @@
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION"
       ],
-      "package": "com.anonymous.Ethiopian_Recipe_Share"
+      "package": "com.anonymous.Ethiopian_Recipe_Share",
+      "usesCleartextTraffic": true,
+      "networkSecurityConfig": "./network-security-config.xml"
     },
     "web": {
       "bundler": "metro",
